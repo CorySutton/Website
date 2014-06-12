@@ -1,0 +1,188 @@
+@media screen and (max-width: 480px) {
+	body{
+		background-color:green;
+	}
+	
+} /*iphone portrait*/
+
+@media screen and (min-width: 480px) and (max-width: 640px) {
+	body{
+		background-color: blue;
+	}
+} /*iphone landscape*/
+
+@media screen and (min-width: 640px) and (max-width: 960px){
+	body{
+		background-color: red;
+	}
+} /*ipad portrait*/
+
+@media screen and (min-width: 960px) {
+	div.contentWrapper{
+		width:1068px;
+		border: 1px solid black;
+		margin: 0 auto;
+	}
+
+	div.contentWrapper>div {
+		min-width: 200px;
+		max-width: 325px;
+	}
+} /*ipad landscape*/
+
+body{
+	font-family: helvetica;
+	color: white;
+	background-image:url(images/blueGradient.png);
+	background-color: #337492;
+	background-margin: 0 auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center top;
+}
+
+div.container {
+	width: 100%;
+}
+
+div.credentials {
+	width:300px;
+	height:400px;
+	margin: 0 auto;
+	background-color: white;
+	/*opacity:0.75;*/
+	color:#0c759c;
+}
+
+div.credentials p{
+	font-size: 12pt;
+	text-align: center;
+	margin-top: 250px;
+}
+
+img.logo{
+	display: block;
+	width: 300px;
+	margin: 0 auto;
+}
+
+div.credentials>form {
+	opacity: 1;
+	color: black;
+	padding: 15px;
+	color:#0c759c;
+}
+
+button {
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding-bottom:10px;
+	font-family: open-sans, helvetica;
+	font-size: 18px;
+	font-weight: lighter;
+	color:#0c759c;
+	border: 1px solid #0c759c;
+	background-color: white;
+	cursor: pointer;
+}
+
+div.Menu ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	text-transform: uppercase;
+	font-size: 22pt;
+	line-height: 30pt;
+}
+
+.fadeHide {
+	opacity: 0;
+	}
+
+ul#main{
+	color: white;
+	margin-top: 100px
+}
+
+ul#main a{
+	text-decoration: none;
+	color:white;
+}
+
+div.menu{
+	height: 100%;
+	width:235px;
+	float:left;
+}
+
+div.menuSlide {
+	height:100%;
+	width:0px;
+	background-color: black;
+	opacity:.75;
+	position: fixed;
+	z-index: 100;
+	top:0px;
+	left:0px;
+	padding-left: 0px;
+	overflow: hidden;
+}
+
+div.Menu img{
+	width: 24px;
+	height: 24px;
+	/*float: right;*/
+	margin: 10px;
+}
+
+div.menuSlide img {
+	float: right;
+}
+
+div.slideOpen {
+	width:230px;
+	padding-left: 50px;
+}
+
+div.Late, div.Due, div.Complete {
+	float: left;
+	margin: 10px 20px;
+	color: gray;
+	background-color: white;
+	text-transform: none;
+	font-size: 16pt;
+	padding: 10px;
+}
+
+div.Late ul, div.Due ul, div.Complete ul {
+	list-style-type: none;
+	line-height: 12pt;
+}
+
+div.calendar table{
+	display: block;
+	margin:0 auto;
+}
+
+div.calendar td, div.calendar th{
+	color:#0c759c;
+	padding: 20px;
+	background-color: white;
+}
+
+div.calendar td {
+	font-size: 24pt;
+	text-align: right;
+	padding-left: 110px;
+	padding-right: 5px;
+	padding-top:70px;
+	padding-bottom:5px ;
+}
+
+div.classes {
+	margin: 0 auto;
+	width: 800px;
+	min-height: 300px;
+	background-color:gray;
+}
